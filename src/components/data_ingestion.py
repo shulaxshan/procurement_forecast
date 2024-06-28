@@ -71,9 +71,9 @@ class DataIngestion:
             logging.error(e)
 
 
-if __name__ == "__main__":
-    data_ingestion=DataIngestion()
-    final_data_path, category_data_path = data_ingestion.initiate_data_ingestion()
+# if __name__ == "__main__":
+#     data_ingestion=DataIngestion()
+#     final_data_path, category_data_path = data_ingestion.initiate_data_ingestion()
 
-    data_transform = DataTransformation()
-    data_transform.data_preprocessor(final_data_path)
+#     data_transform = DataTransformation()
+#     data_transform.data_preprocessor(final_data_path)

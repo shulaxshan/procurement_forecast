@@ -5,6 +5,9 @@ from src.logger import logging
 import pandas as pd
 from dataclasses import dataclass
 
+from src.components.data_transformation import DataTransformation
+from src.components.data_transformation import DataTransformationConfig
+
 @dataclass
 class DataIngestionConfig:
     final_data_path: str=os.path.join('artifacts',"final_data.csv")
@@ -70,4 +73,7 @@ class DataIngestion:
 
 if __name__ == "__main__":
     data_ingestion=DataIngestion()
-    data_ingestion = data_ingestion.initiate_data_ingestion()
+    final_data_path, category_data_path = data_ingestion.initiate_data_ingestion()
+
+    data_transform = DataTransformation()
+    data_transform.data_preprocessor(final_data_path)

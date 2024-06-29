@@ -4,16 +4,31 @@ stages:
     deps:
       - src/pipeline/stage_01_data_ingestion.py
     outs:
-      - artifacts/data_ingestion/category_data.csv
       - artifacts/data_ingestion/final_data.csv
+      - artifacts/data_ingestion/category.csv
 
 
-stages:
+
   data_transformation:
     cmd: python src/pipeline/stage_02_data_transformation.py
     deps:
       - src/pipeline/stage_02_data_transformation.py
+      - artifacts/data_ingestion/final_data.csv
     outs:
       - artifacts/data_transformation/daily_data.csv
       - artifacts/data_transformation/weekly_data.csv
       - artifacts/data_transformation/monthly_data.csv
+      - artifacts/data_transformation/my_max_date_variable.pkl
+
+
+  model_trainer:
+    cmd: python src/pipeline/stage_03_model_trainer.py
+    deps:
+      - src/pipeline/stage_03_model_trainer.py
+      - artifacts/data_transformation/weekly_data.csv
+      - artifacts/data_transformation/my_max_date_variable.pkl
+    outs:
+      - artifacts/model_trainer/actual_df.csv
+      - artifacts/model_trainer/forecast_df.csv
+
+    

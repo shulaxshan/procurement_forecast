@@ -69,7 +69,8 @@ class DataIngestion:
 
             logging.info("Data ingestion completed")
             
-            return (self.ingestion_config.final_data_path,self.ingestion_config.category_data_path)
+            # return (self.ingestion_config.final_data_path,self.ingestion_config.category_data_path)
+            return final_data_set,category_df
         
         except CustomException as e:
             logging.error(e)

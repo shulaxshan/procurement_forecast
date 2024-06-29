@@ -20,7 +20,8 @@ if __name__ == '__main__':
     try:
         logging.info(f">>>>>>>>> stage {STAGE_NAME} started  <<<<<<<<<<")
         obj = DataIngestionPipeline()
-        final_data_path, category_data_path = obj.main()
+        # final_data_path, category_data_path = obj.main()
+        final_data, category_data = obj.main()
         logging.info(f">>>>>>>>> stage {STAGE_NAME} completed  <<<<<<<<<<")
 
     except CustomException as e:

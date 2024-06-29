@@ -14,7 +14,7 @@ from src.utils import save_object,save_variable
 class ModelTrainingConfig:
     forecasted_df_file_paths = os.path.join('artifacts/model_trainer', "forecasted_df.csv")
     actual_df_file_paths = os.path.join('artifacts/model_trainer', "actual_df.csv")
-    failded_ids_path = os.path.join('artifacts/model_trainer',"failed_unique_ids_supplier_category.txt")
+    failded_ids_path = os.path.join('artifacts/model_trainer',"failed_unique_ids_iteamzied_level.txt")
 
 
 class ModelTraining:

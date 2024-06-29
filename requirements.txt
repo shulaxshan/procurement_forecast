@@ -3,4 +3,5 @@ numpy==1.26.4
 matplotlib
 prophet
 calendra
+dvc
 # inspect

@@ -10,7 +10,7 @@ class DataTransformationPipeline:
         pass
 
     def main(self):
-        final_data_path = 'artifacts/final_data.csv'  # Replace with the actual path to your final data file
+        final_data_path = 'artifacts/data_ingestion/final_data.csv'  # Replace with the actual path to your final data file
         data_transform = DataTransformation()
         data_transform.data_preprocessor(final_data_path)
 

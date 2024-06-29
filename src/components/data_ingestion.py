@@ -7,11 +7,15 @@ from dataclasses import dataclass
 
 from src.components.data_transformation import DataTransformation
 from src.components.data_transformation import DataTransformationConfig
+from src.components.model_trainer import ModelTraining
+from src.components.model_trainer import ModelTrainingConfig
+
+
 
 @dataclass
 class DataIngestionConfig:
-    final_data_path: str=os.path.join('artifacts',"final_data.csv")
-    category_data_path: str=os.path.join('artifacts',"category_data.csv")
+    final_data_path: str=os.path.join('artifacts/data_ingestion',"final_data.csv")
+    category_data_path: str=os.path.join('artifacts/data_ingestion',"category_data.csv")
 
 
 class DataIngestion:
@@ -60,8 +64,8 @@ class DataIngestion:
 
             os.makedirs(os.path.dirname(self.ingestion_config.final_data_path),exist_ok=True)
 
-            final_data_set.to_csv(self.ingestion_config.final_data_path,index=False,header=True)
-            category_df.to_csv(self.ingestion_config.category_data_path,index=False,header=True)
+            final_data_set.to_csv(self.ingestion_config.final_data_path,index=False,header=True,encoding='latin1')
+            category_df.to_csv(self.ingestion_config.category_data_path,index=False,header=True,encoding='latin1')
 
             logging.info("Data ingestion completed")
             
@@ -76,4 +80,8 @@ class DataIngestion:
 #     final_data_path, category_data_path = data_ingestion.initiate_data_ingestion()
 
 #     data_transform = DataTransformation()
-#     data_transform.data_preprocessor(final_data_path)
+#     selected_df_daily,selected_df_weekly,selected_df_monthly, max_date = data_transform.data_preprocessor(final_data_path)
+
+#     model_trainer =ModelTraining()
+#     model_trainer.initiate_model_forecast(selected_df_weekly,max_date)
+

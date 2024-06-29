@@ -1,0 +1,214 @@
+ADAGIO__F&B Kitchen__LS - Bakery Products Fresh__bread
+ADAGIO__F&B Kitchen__LS - Bakery Products Fresh__bread arabic
+ADAGIO__F&B Kitchen__LS - Bakery Products Fresh__bread pan
+ADAGIO__F&B Kitchen__LS - Bakery Products Fresh__bread toast
+ADAGIO__F&B Kitchen__LS - Bakery Products Frozen__bread
+ADAGIO__F&B Kitchen__LS - Bakery Products Frozen__bread buger
+ADAGIO__F&B Kitchen__LS - Bakery Products Frozen__bread loaf
+ADAGIO__F&B Kitchen__LS - Bakery Products Frozen__bread roll
+ADAGIO__F&B Kitchen__LS - Bakery Products Frozen__bread sourdough
+ADAGIO__F&B Kitchen__LS - Bakery Products Frozen__bread, baguette
+ADAGIO__F&B Kitchen__LS - Bakery Products Frozen__croissant
+ADAGIO__F&B Kitchen__LS - Bakery Products Frozen__danish
+ADAGIO__F&B Kitchen__LS - Bakery Products Frozen__flour
+ADAGIO__F&B Kitchen__LS - Bakery Products Frozen__muffin
+ADAGIO__F&B Kitchen__LS - Bakery Products Frozen__paratha
+ADAGIO__F&B Kitchen__LS - Bakery Products Frozen__tart shell
+ADAGIO__F&B Kitchen__LS - Consumables__garbage bag
+ADAGIO__F&B Kitchen__LS - Consumables__gloves
+ADAGIO__F&B Kitchen__LS - Consumables__paper towel
+ADAGIO__F&B Kitchen__LS - Dairy Products Fresh__eggs white
+ADAGIO__F&B Kitchen__LS - Dairy Products Fresh__yoghurt
+ADAGIO__F&B Kitchen__LS - Dairy products chilled/frozen__brie cheese
+ADAGIO__F&B Kitchen__LS - Dairy products chilled/frozen__burrata cheese
+ADAGIO__F&B Kitchen__LS - Dairy products chilled/frozen__butter
+ADAGIO__F&B Kitchen__LS - Dairy products chilled/frozen__cheddar cheese
+ADAGIO__F&B Kitchen__LS - Dairy products chilled/frozen__cheese
+ADAGIO__F&B Kitchen__LS - Dairy products chilled/frozen__cooking cream
+ADAGIO__F&B Kitchen__LS - Dairy products chilled/frozen__cream cheese
+ADAGIO__F&B Kitchen__LS - Dairy products chilled/frozen__emmental cheese
+ADAGIO__F&B Kitchen__LS - Dairy products chilled/frozen__feta cheese
+ADAGIO__F&B Kitchen__LS - Dairy products chilled/frozen__halloumi cheese
+ADAGIO__F&B Kitchen__LS - Dairy products chilled/frozen__labneh,full fat
+ADAGIO__F&B Kitchen__LS - Dairy products chilled/frozen__milk
+ADAGIO__F&B Kitchen__LS - Dairy products chilled/frozen__mozzarella cheese
+ADAGIO__F&B Kitchen__LS - Dairy products chilled/frozen__parmesan cheese
+ADAGIO__F&B Kitchen__LS - Dairy products chilled/frozen__whipping cream
+ADAGIO__F&B Kitchen__LS - Dried Products__almond flakes
+ADAGIO__F&B Kitchen__LS - Dried Products__almond whole
+ADAGIO__F&B Kitchen__LS - Dried Products__apricot
+ADAGIO__F&B Kitchen__LS - Dried Products__baked beans
+ADAGIO__F&B Kitchen__LS - Dried Products__basmati rice
+ADAGIO__F&B Kitchen__LS - Dried Products__beef
+ADAGIO__F&B Kitchen__LS - Dried Products__bread roll
+ADAGIO__F&B Kitchen__LS - Dried Products__canola oil
+ADAGIO__F&B Kitchen__LS - Dried Products__chia seeds
+ADAGIO__F&B Kitchen__LS - Dried Products__chick peas
+ADAGIO__F&B Kitchen__LS - Dried Products__chicken stock
+ADAGIO__F&B Kitchen__LS - Dried Products__chilli powder
+ADAGIO__F&B Kitchen__LS - Dried Products__chocolate
+ADAGIO__F&B Kitchen__LS - Dried Products__coconut
+ADAGIO__F&B Kitchen__LS - Dried Products__coconut milk
+ADAGIO__F&B Kitchen__LS - Dried Products__cranberry
+ADAGIO__F&B Kitchen__LS - Dried Products__dal
+ADAGIO__F&B Kitchen__LS - Dried Products__doughnut
+ADAGIO__F&B Kitchen__LS - Dried Products__essence
+ADAGIO__F&B Kitchen__LS - Dried Products__fish
+ADAGIO__F&B Kitchen__LS - Dried Products__flour
+ADAGIO__F&B Kitchen__LS - Dried Products__foul mudammas
+ADAGIO__F&B Kitchen__LS - Dried Products__hazelnut
+ADAGIO__F&B Kitchen__LS - Dried Products__honey
+ADAGIO__F&B Kitchen__LS - Dried Products__lentil
+ADAGIO__F&B Kitchen__LS - Dried Products__muffin mix
+ADAGIO__F&B Kitchen__LS - Dried Products__mushroom
+ADAGIO__F&B Kitchen__LS - Dried Products__mustard
+ADAGIO__F&B Kitchen__LS - Dried Products__noodles
+ADAGIO__F&B Kitchen__LS - Dried Products__oats
+ADAGIO__F&B Kitchen__LS - Dried Products__olive oil
+ADAGIO__F&B Kitchen__LS - Dried Products__olives black
+ADAGIO__F&B Kitchen__LS - Dried Products__olives green
+ADAGIO__F&B Kitchen__LS - Dried Products__pear halves
+ADAGIO__F&B Kitchen__LS - Dried Products__pepper black powder
+ADAGIO__F&B Kitchen__LS - Dried Products__pickles
+ADAGIO__F&B Kitchen__LS - Dried Products__prunes
+ADAGIO__F&B Kitchen__LS - Dried Products__pumpkin seeds
+ADAGIO__F&B Kitchen__LS - Dried Products__quinoa seeds
+ADAGIO__F&B Kitchen__LS - Dried Products__raisins
+ADAGIO__F&B Kitchen__LS - Dried Products__rice
+ADAGIO__F&B Kitchen__LS - Dried Products__salt
+ADAGIO__F&B Kitchen__LS - Dried Products__sesame seeds
+ADAGIO__F&B Kitchen__LS - Dried Products__sugar white
+ADAGIO__F&B Kitchen__LS - Dried Products__sunflower oil
+ADAGIO__F&B Kitchen__LS - Dried Products__sunflower seeds
+ADAGIO__F&B Kitchen__LS - Dried Products__tahina
+ADAGIO__F&B Kitchen__LS - Dried Products__tomato ketchup
+ADAGIO__F&B Kitchen__LS - Dried Products__tomato peeled
+ADAGIO__F&B Kitchen__LS - Dried Products__vegetable oil
+ADAGIO__F&B Kitchen__LS - Dried Products__vinegar
+ADAGIO__F&B Kitchen__LS - Dried Products__walnut
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__apple
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__apple green
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__avacado
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__banana
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__banana leaves
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__blackberry
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__blueberry
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__coconut whole
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__dates
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__dragon fruit
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__grapes
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__honeydew melon
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__kiwi
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__lemon
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__lime
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__mandarin
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__mango
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__mangosteen
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__melon
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__orange
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__papaya
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__passion fruit
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__pear
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__pineapple
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__pomegranate
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__rambutan
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__raspberry
+ADAGIO__F&B Kitchen__LS - Fruit Fresh__strawberry
+ADAGIO__F&B Kitchen__LS - Fruits Frozen__puree
+ADAGIO__F&B Kitchen__LS - Fruits Frozen__raspberry
+ADAGIO__F&B Kitchen__LS - Fruits Frozen__salad
+ADAGIO__F&B Kitchen__LS - Meat Frozen__beef
+ADAGIO__F&B Kitchen__LS - Meat Frozen__lamb
+ADAGIO__F&B Kitchen__LS - Meat chilled__beef
+ADAGIO__F&B Kitchen__LS - Pasta Products__pasta, fettuccine
+ADAGIO__F&B Kitchen__LS - Pasta Products__pasta, fusilli
+ADAGIO__F&B Kitchen__LS - Pasta Products__pasta, macaroni
+ADAGIO__F&B Kitchen__LS - Pasta Products__pasta, penne
+ADAGIO__F&B Kitchen__LS - Pasta Products__pasta, spaghetti
+ADAGIO__F&B Kitchen__LS - Poultry Chilled__chicken
+ADAGIO__F&B Kitchen__LS - Poultry Frozen__chicken
+ADAGIO__F&B Kitchen__LS - Processed Food Items__beef
+ADAGIO__F&B Kitchen__LS - Processed Food Items__beef mortadella
+ADAGIO__F&B Kitchen__LS - Processed Food Items__beef sausage
+ADAGIO__F&B Kitchen__LS - Processed Food Items__chicken mortadella
+ADAGIO__F&B Kitchen__LS - Processed Food Items__chicken sausage
+ADAGIO__F&B Kitchen__LS - Processed Food Items__turkey ham
+ADAGIO__F&B Kitchen__LS - Processed Food Items__veal
+ADAGIO__F&B Kitchen__LS - Sauces and Dressing__bbq sauce
+ADAGIO__F&B Kitchen__LS - Sauces and Dressing__chilli sauce
+ADAGIO__F&B Kitchen__LS - Sauces and Dressing__demi glace powder
+ADAGIO__F&B Kitchen__LS - Sauces and Dressing__guacamole
+ADAGIO__F&B Kitchen__LS - Sauces and Dressing__mayonnaise
+ADAGIO__F&B Kitchen__LS - Sauces and Dressing__seaweed
+ADAGIO__F&B Kitchen__LS - Seafood Fresh__crab
+ADAGIO__F&B Kitchen__LS - Seafood Fresh__fish
+ADAGIO__F&B Kitchen__LS - Seafood Fresh__fish fillet
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__asparagus
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__baby corn
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__basil
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__beans
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__broccoli
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__cabbage
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__capsicum green
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__capsicum red
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__capsicum yellow
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__carrot
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__cauliflower
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__celery
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__coriander leaves
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__cress leaves sakura
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__cucumber
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__dill leaves
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__eggplant
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__flower
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__garlic peeled
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__ginger
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__green chilli
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__kale leaf
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__leeks
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__lettuce
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__marrow
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__mint leaves
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__onion red
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__onion spring
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__parsley leaves
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__peas
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__potato fresh
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__potato sweet
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__pumpkin red
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__radish
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__rosemary
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__spinach
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__thyme
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__tomato
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__zucchini green
+ADAGIO__F&B Kitchen__LS - Vegetables Fresh__zucchini yellow
+ADAGIO__F&B Kitchen__LS - Vegetables Frozen__corn on the cob
+ADAGIO__F&B Kitchen__LS - Vegetables Frozen__eggplant
+ADAGIO__F&B Kitchen__LS - Vegetables Frozen__hash browns
+ADAGIO__F&B Kitchen__LS - Vegetables Frozen__potato french fries
+ADAGIO__F&B Kitchen__LS - Vegetables Frozen__potato wedges
+ADAGIO__F&B Kitchen__LS - Vegetables Frozen__soya beans
+ADAGIO__F&B Kitchen__LS - seafood Frozen__fish
+ADAGIO__F&B Kitchen__LS - seafood Frozen__lobster
+ADAGIO__F&B Kitchen__LS - seafood Frozen__mussels
+ADAGIO__F&B Kitchen__LS - seafood Frozen__octopus
+ADAGIO__F&B Kitchen__LS - seafood Frozen__shrimp
+ADAGIO__F&B Kitchen__LS - seafood Frozen__squid rings
+ADAGIO__F&B Kitchen__LS - seafood Frozen__squid tubes
+ADAGIO__Fixie Café__LS - Consumables__cup lid
+ADAGIO__Fixie Café__LS - Consumables__lunch box
+ADAGIO__Fixie Café__LS - Consumables__napkin
+ADAGIO__Fixie Café__LS - Consumables__paper cup
+ADAGIO__Fixie Café__LS - Dairy products chilled/frozen__coconut milk
+ADAGIO__Fixie Café__LS - Dairy products chilled/frozen__milk
+ADAGIO__Fixie Café__LS - Dairy products chilled/frozen__milk almond
+ADAGIO__Fixie Café__LS - Dairy products chilled/frozen__milk oat
+ADAGIO__Fixie Café__LS - Dried Products__cereal
+ADAGIO__Fixie Café__LS - Dried Products__honey
+ADAGIO__Fixie Café__LS - Dried Products__salt
+ADAGIO__Fixie Café__LS - Sauces and Dressing__jam strawberry
+ADAGIO__Fixie Café__LS - Sauces and Dressing__mayonnaise
+ADAGIO__Fixie Café__LS - Sauces and Dressing__tomato ketchup
+ADAGIO__Housekeeping__LS - Consumables__paper towel
+ADAGIO__Housekeeping__LS - Consumables__toilet paper roll

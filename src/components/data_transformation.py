@@ -1,7 +1,7 @@
 import sys
 from dataclasses import dataclass
 from src.exception import CustomException
-from src.utils import save_object
+from src.utils import save_object,save_variable
 from src.logger import logging
 import os
 
@@ -13,9 +13,14 @@ import calendar
 
 @dataclass
 class DataTransformationConfig:
-    # preprocessor_obj_file_path = os.path.join('artifacts', "preprocessor.pkl")
-    selected_uniqueIDs_path = os.path.join('artifacts', "selected_unique_ids.txt")
-    unselected_uniqueIDs_path = os.path.join('artifacts', "unselected_unique_ids.txt")
+
+    selected_uniqueIDs_path = os.path.join('artifacts/data_transformation', "selected_unique_ids.txt")
+    unselected_uniqueIDs_path = os.path.join('artifacts/data_transformation', "unselected_unique_ids.txt")
+    selected_df_daily_path = os.path.join('artifacts/data_transformation', "daily_data.csv")
+    selected_df_weekly_path = os.path.join('artifacts/data_transformation', "weekly_data.csv")
+    selected_df_monthly_path = os.path.join('artifacts/data_transformation', "monthly_data.csv")
+    max_date_path = os.path.join('artifacts/data_transformation', 'my_max_date_variable.pkl')
+
 
 
 class DataTransformation:
@@ -137,11 +142,11 @@ class DataTransformation:
         
 
 
-    def data_preprocessor(self,final_data_path):
+    def data_preprocessor(self,final_data_path,encoding='latin1'):
         try:
             logging.info("Initiating data transformation")
 
-            df = pd.read_csv(final_data_path)
+            df = pd.read_csv(final_data_path,encoding=encoding)
 
             df['Booking_Date'] = pd.to_datetime(df['Booking_Date'])
             max_date = df.Booking_Date.max() +  pd.offsets.MonthEnd(0)
@@ -238,6 +243,19 @@ class DataTransformation:
       
             selected_df_daily,selected_df_weekly,selected_df_monthly = sub_pre(selected_filtered_df)
             logging.info("Successfully saved selected daily, week and monthly resampled dataset into selected_df_daily,selected_df_weekly,selected_df_monthly variabels.")
+
+            os.makedirs(os.path.dirname(self.data_transformation_config.selected_df_daily_path),exist_ok=True)
+
+            selected_df_daily.to_csv(self.data_transformation_config.selected_df_daily_path,index=False,header=True,encoding='latin1')
+            selected_df_weekly.to_csv(self.data_transformation_config.selected_df_weekly_path,index=False,header=True,encoding='latin1')
+            selected_df_monthly.to_csv(self.data_transformation_config.selected_df_monthly_path,index=False,header=True,encoding='latin1')
+
+            save_variable(
+                file_path = self.data_transformation_config.max_date_path,
+                my_variable = max_date
+            )
+
+            logging.info("Data tranformation files saved sucessfully")
 
             return selected_df_daily,selected_df_weekly,selected_df_monthly, max_date
 

@@ -4,4 +4,7 @@ matplotlib
 prophet
 calendra
 dvc
+pyyaml
+sqlalchemy
+psycopg2
 # inspect

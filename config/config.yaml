@@ -1,0 +1,6 @@
+db:
+  user: postgres
+  password: abc%40123  ####real password abc@123 but we done web url encode value to @ sign = %40
+  host: localhost
+  port: 5432
+  database: accor

@@ -8,6 +8,15 @@ from prophet import Prophet
 from math import ceil
 import inspect
 from src.utils import save_object,save_variable
+from sqlalchemy import create_engine
+import yaml
+
+def read_db_config(path):
+    with open(path, 'r') as file:
+        config = yaml.safe_load(file)
+    db_config = config['db']
+    db_url = f"postgresql://{db_config['user']}:{db_config['password']}@{db_config['host']}:{db_config['port']}/{db_config['database']}"
+    return db_url
 
 
 @dataclass
@@ -15,6 +24,7 @@ class ModelTrainingConfig:
     forecasted_df_file_paths = os.path.join('artifacts/model_trainer', "forecasted_df.csv")
     actual_df_file_paths = os.path.join('artifacts/model_trainer', "actual_df.csv")
     failded_ids_path = os.path.join('artifacts/model_trainer',"failed_unique_ids_iteamzied_level.txt")
+    db_url = read_db_config(path = 'config/config.yaml')
 
 
 class ModelTraining:
@@ -160,6 +170,17 @@ class ModelTraining:
         except CustomException as e:
             raise CustomException(e,sys)
         
+
+    def save_to_postgresql(self, df, table_name):
+        
+        try:   
+            engine = create_engine(self.model_training_config.db_url)
+            df.to_sql(table_name, engine, if_exists='replace', index=False)
+            logging.info(f"Data successfully saved to table {table_name} in PostgreSQL")
+        except Exception as e:
+            logging.error(f"Failed to save data to PostgreSQL: {e}")
+            raise CustomException(e, sys)
+
     
     def initiate_model_forecast(self,df_path,max_date):
         try:
@@ -177,6 +198,11 @@ class ModelTraining:
             prop1_all_actual_df.to_csv(self.model_training_config.actual_df_file_paths,index=False,header=True,encoding='latin1')
 
             logging.info(f'Successfully saved predictions into csv file.Predicted unique_IDS count: {prop1_all_prediction_df['uniqueID'].nunique()}')
+
+            self.save_to_postgresql(prop1_all_prediction_df, "prophet_predictions")
+            self.save_to_postgresql(prop1_all_actual_df, "prophet_actuals")
+
+            logging.info(f'Successfully saved both predictions and Actual into DataBase.')
    
             return prop1_all_prediction_df, prop1_all_actual_df
         except CustomException as e:
